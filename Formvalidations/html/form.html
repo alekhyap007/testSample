@@ -1,0 +1,149 @@
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+  </script>
+  <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+  <!--<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="../js/form.js"></script>
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<!-- <nav class="static">
+    <div class="ui stackable center page grid">
+        <div id="logo" class="three wide left column">
+            <a href="/">
+              <img src="https://www.karmaautomotive.com/_ui/responsive/common/karma/img/karma_logo.svg">
+            
+            </a>
+        </div>
+        <div id="navi" class="ten wide left column">
+			 <!-- <ul id="menu-header-navigation" class="contact-nav">
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199"><a href="/revero">REVERO</a></li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199"><a href="/create">CONFIGURE</a></li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199"><a href="https://hub.karmaautomotive.com/">COMMUNITY</a></li>
+				</ul> -->
+<!-- /		<button id="hamburger" class="cmn-toggle-switch cmn-toggle-switch__htx"><span>toggle menu</span></button> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- </nav> -->
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="https://www.karmaautomotive.com/_ui/responsive/common/karma/img/karma_logo.svg">
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active">
+        <a href="#">REVERO</a>
+      </li>
+      <li class="active">
+        <a href="#">CONFIGURE</a>
+      </li>
+      <li class="active">
+        <a href="#">COMMUNITY</a>
+      </li>
+      <li class="active">
+        <a href="#">LOCATOR</a>
+      </li>
+      <li class="active">
+        <a href="#">DRIVE</a>
+      </li>
+      <li class="active">
+        <a href="#">LEASE</a>
+      </li>
+      <li class="active">
+        <a href="#">OWNERSHIP</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="color: whitesmoke">HI, JANE <span class="glyphicon glyphicon-user"></span></a></li>
+      </ul>
+  </div>
+</nav>
+
+
+
+
+<div class="container">
+  <div class="ui stackable aligned page grid">
+    <div class="sixteen wide column">
+      <h2>CLIENT SERVICES</h2>
+    </div>
+  </div>
+  <button type="button contact-button" class="button1" id="button1">CONTACT US</button>
+  <button type="button home-button" class="button2 " id="button2">REQUEST A CALL BACK</button>
+
+  <div id="hide">
+    <form id="myform" method="post">
+      <div class="row">
+        <div class="col-sm-6 px-1">
+          <div class="form-group">
+            <input type="text" class="form-control  pl-0" id="first_name" placeholder="*FIRST" name="first_name">
+          </div>
+        </div>
+        <div class="col-sm-6 px-1">
+          <div class="form-group">
+            <input type="text" class="form-control   pl-0" id="last_name" placeholder="*LAST" name="last_name">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 px-1">
+          <div class="form-group">
+            <input type="text" class="form-control   pl-0" id="phoneNo" placeholder="*PHONE" name="phoneNo">
+          </div>
+        </div>
+
+        <div class="col-sm-6 px-0">
+          <div class="form-group">
+            <input type="email" class="form-control   pl-0" id="email_ID" placeholder="*EMAIL" name="email_ID">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 px-0">
+          <div class="form-group ">
+            <input type="text" class="form-control  pl-0" maxlength="250" id="message" placeholder="*MESSAGE" name="message">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="custom-checkbox">
+        <div class="row text-white mt-5">
+          <div class="col-lg-12 px-0">
+            <div class="custom-checkbox form-group">
+              <input type="checkbox" id="5" class="my-auto">
+              <label for="5"> Email me a receipt</label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="row d-flex mt-2 mb-3">
+        <button type="submit" class="btn btn-outline-secondary text-white mb-1 mr-2">Submit</button>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<div id="second" class="2" style="display:none">
+  THANK YOU FOR SUBMITTING YOUR REQUEST. A MEMBER OF THE KARMA TEAM WILL BE IN TOUCH SHORTLY.
+</div>
+
+</body>
+
+
+</html>

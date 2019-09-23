@@ -1,0 +1,105 @@
+input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      font-family: 'Nexa Bold', sans-serif;
+      color: #a29c9c;
+    }
+
+    input[type=email],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      font-family: 'Nexa Bold', sans-serif;
+      color: #a29c9c;
+    }
+
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Nexa Bold', sans-serif;
+      color: #a29c9c;
+    }
+
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    /* Add a background color and some padding around the form */
+
+    .container {
+      border-radius: 5px;
+      background-color: whitesmoke;
+      padding: 20px;
+    }
+    .box{
+      width:100%;
+      padding-bottom: 40px
+    }
+    .button1 {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      width: 562px;
+      height: 45px;
+      background-color: rgb(248, 85, 85);
+      color: white
+  }
+  .button2 {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 562px;
+    height: 45px;
+    background-color:black;
+    color: white
+}
+.custom-checkbox {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin-left: 247px;
+} 
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 543px;
+}
